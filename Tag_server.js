@@ -2,6 +2,8 @@ var helpscout = require('helpscout')('api-key', 16514);
 var fs = require('fs');
 var http = require('http');
 
+// NO WARRANTY EXPRESSED OR IMPLIED. USE AT YOUR OWN RISK.
+
 //helpscout.conversations.list({ status: 'closed' }, function(err, mailboxes){
 	// for (var i = 0; i < mailboxes.items.length; i++){
 		// for(var j = 0; j < mailboxes.items[i].tags.length; j++){
