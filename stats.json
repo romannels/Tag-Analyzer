@@ -1,0 +1,361 @@
+{
+	"month": "",
+	"datePeriod": "",
+	"mailbox": 16514,
+	
+	"Alex": {
+	  "firstname": "Alex",
+	  "lastname": "Chebanenko",
+	  "totalTickets": 0,
+			"warehouseTotals": {
+			  "w10": 0,
+			  "w11": 0,
+			  "w13": 0,
+			  "w15": 0,
+			  "w17": 0,
+			  "w18": 0,
+			  "w20": 0,
+			  "w30": 0,
+			  "w35": 0,
+			  "w40": 0,
+			  "w42": 0,
+			  "w44": 0,
+			  "w50": 0,
+			  "w55": 0,
+			  "w57": 0,
+			  "w65": 0,
+			  "w70": 0
+			}
+	},
+	
+	"Ben": {
+	  "firstname": "Ben",
+	  "lastname": "Teele",
+	  "totalTickets": 0,
+			"warehouseTotals": {
+			  "w10": 0,
+			  "w11": 0,
+			  "w13": 0,
+			  "w15": 0,
+			  "w17": 0,
+			  "w18": 0,
+			  "w20": 0,
+			  "w30": 0,
+			  "w35": 0,
+			  "w40": 0,
+			  "w42": 0,
+			  "w44": 0,
+			  "w50": 0,
+			  "w55": 0,
+			  "w57": 0,
+			  "w65": 0,
+			  "w70": 0
+			}	
+	},
+	
+	"Ed": {
+	  "firstname": "Ed",
+	  "lastname": "McClure",
+	  "totalTickets": 0,
+			"warehouseTotals": {
+			  "w10": 0,
+			  "w11": 0,
+			  "w13": 0,
+			  "w15": 0,
+			  "w17": 0,
+			  "w18": 0,
+			  "w20": 0,
+			  "w30": 0,
+			  "w35": 0,
+			  "w40": 0,
+			  "w42": 0,
+			  "w44": 0,
+			  "w50": 0,
+			  "w55": 0,
+			  "w57": 0,
+			  "w65": 0,
+			  "w70": 0
+			}	
+	},
+	
+	"Jacob": {
+	  "firstname": "Jacob",
+	  "lastname": "Barber",
+	  "totalTickets": 0,
+			"warehouseTotals": {
+			  "w10": 0,
+			  "w11": 0,
+			  "w13": 0,
+			  "w15": 0,
+			  "w17": 0,
+			  "w18": 0,
+			  "w20": 0,
+			  "w30": 0,
+			  "w35": 0,
+			  "w40": 0,
+			  "w42": 0,
+			  "w44": 0,
+			  "w50": 0,
+			  "w55": 0,
+			  "w57": 0,
+			  "w65": 0,
+			  "w70": 0
+			}	
+	},
+	
+	"Jeremy": {
+	  "firstname": "Jeremy",
+	  "lastname": "Wimmer",
+	  "totalTickets": 0,
+			"warehouseTotals": {
+			  "w10": 0,
+			  "w11": 0,
+			  "w13": 0,
+			  "w15": 0,
+			  "w17": 0,
+			  "w18": 0,
+			  "w20": 0,
+			  "w30": 0,
+			  "w35": 0,
+			  "w40": 0,
+			  "w42": 0,
+			  "w44": 0,
+			  "w50": 0,
+			  "w55": 0,
+			  "w57": 0,
+			  "w65": 0,
+			  "w70": 0
+			}	
+	},
+	
+	"Nathan-C": {
+	  "firstname": "Nathan",
+	  "lastname": "Casebolt",
+	  "totalTickets": 0,
+			"warehouseTotals": {
+			  "w10": 0,
+			  "w11": 0,
+			  "w13": 0,
+			  "w15": 0,
+			  "w17": 0,
+			  "w18": 0,
+			  "w20": 0,
+			  "w30": 0,
+			  "w35": 0,
+			  "w40": 0,
+			  "w42": 0,
+			  "w44": 0,
+			  "w50": 0,
+			  "w55": 0,
+			  "w57": 0,
+			  "w65": 0,
+			  "w70": 0
+			}	
+	},
+	
+	"Nathan-H": {
+	  "firstname": "Nathan",
+	  "lastname": "Harms",
+	  "totalTickets": 0,
+			"warehouseTotals": {
+			  "w10": 0,
+			  "w11": 0,
+			  "w13": 0,
+			  "w15": 0,
+			  "w17": 0,
+			  "w18": 0,
+			  "w20": 0,
+			  "w30": 0,
+			  "w35": 0,
+			  "w40": 0,
+			  "w42": 0,
+			  "w44": 0,
+			  "w50": 0,
+			  "w55": 0,
+			  "w57": 0,
+			  "w65": 0,
+			  "w70": 0
+			}	
+	},
+	
+	"Matt": {
+	  "firstname": "Matt",
+	  "lastname": "Casebolt",
+	  "totalTickets": 0,
+			"warehouseTotals": {
+			  "w10": 0,
+			  "w11": 0,
+			  "w13": 0,
+			  "w15": 0,
+			  "w17": 0,
+			  "w18": 0,
+			  "w20": 0,
+			  "w30": 0,
+			  "w35": 0,
+			  "w40": 0,
+			  "w42": 0,
+			  "w44": 0,
+			  "w50": 0,
+			  "w55": 0,
+			  "w57": 0,
+			  "w65": 0,
+			  "w70": 0
+			}	
+	},
+	
+	"Roman": {
+	  "firstname": "Roman",
+	  "lastname": "Nelson",
+	  "totalTickets": 0,
+			"warehouseTotals": {
+			  "w10": 0,
+			  "w11": 0,
+			  "w13": 0,
+			  "w15": 0,
+			  "w17": 0,
+			  "w18": 0,
+			  "w20": 0,
+			  "w30": 0,
+			  "w35": 0,
+			  "w40": 0,
+			  "w42": 0,
+			  "w44": 0,
+			  "w50": 0,
+			  "w55": 0,
+			  "w57": 0,
+			  "w65": 0,
+			  "w70": 0
+			}	
+	},
+	
+	"Stephen": {
+	  "firstname": "Stephen",
+	  "lastname": "Bede",
+	  "totalTickets": 0,
+			"warehouseTotals": {
+			  "w10": 0,
+			  "w11": 0,
+			  "w13": 0,
+			  "w15": 0,
+			  "w17": 0,
+			  "w18": 0,
+			  "w20": 0,
+			  "w30": 0,
+			  "w35": 0,
+			  "w40": 0,
+			  "w42": 0,
+			  "w44": 0,
+			  "w50": 0,
+			  "w55": 0,
+			  "w57": 0,
+			  "w65": 0,
+			  "w70": 0
+			}	
+	},
+	
+	"overall": {
+				 "warehouse": {
+				  "w10": { 
+				  "name": "",
+				  "total": 0
+				  },
+				  "w11": {
+				  "name": "",
+				  "total": 0			  
+				  },
+				  "w13": {
+				  "name": "",
+				  "total": 0			  
+				  },
+				  "w15": {
+				  "name": "",
+				  "total": 0			  
+				  },
+				  "w17": {
+				  "name": "",
+				  "total": 0			  
+				  },
+				  "w18": {
+				  "name": "",
+				  "total": 0
+				  },
+				  "w20": {
+				  "name": "",
+				  "total": 0			  
+				  },
+				  "w30": {
+				  "name": "",
+				  "total": 0			  
+				  },
+				  "w35": {
+				  "name": "",
+				  "total": 0			  
+				  },
+				  "w40": {
+				  "name": "",
+				  "total": 0			  
+				  },
+				  "w42": {
+				  "name": "",
+				  "total": 0			  
+				  },
+				  "w44": {
+				  "name": "",
+				  "total": 0			  
+				  },
+				  "w50": {
+				  "name": "",
+				  "total": 0			  
+				  },
+				  "w55": {
+				  "name": "",
+				  "total": 0			  
+				  },
+				  "w57": {
+				  "name": "",
+				  "total": 0			  
+				  },
+				  "w65": {
+				  "name": "",
+				  "total": 0			  
+				  },
+				  "w70": {
+			  "name": "",
+			  "total": 0			  
+			  }
+				},
+				"spoilsOfWar": {
+				"aColdBalanceOfPower": "",
+				"locustsUponAFertileField": "",
+				"strangeAlliances": "",
+				"annexation": "",
+				"theWatersFreeze": "",
+				"vengeanceOfTheForgotten": "",
+				"aColdWindBlows": "",
+				"breaksForthTheHorde": "",
+				"theRiverPeopleRise": "",
+				"dividingTheWaters": "",
+				"gripOfIron": "",
+				"letLooseTheMounts": "",
+				"aFertileAlliance": "",
+				"anAllianceOfConvenience": "",
+				"theSouthRises": "",
+				"anEmptyLandAndASavageRace": "",
+				"theCenterWillHold": "",
+				"theRiversDry": "",
+				"aFlameIsKindled": "",
+				"aForgeOfFireAndIce": "",
+				"theDesertBlooms": ""
+				},
+				"rightsOfNobility": {
+				"sovereign": "",
+				"chiefMinister": "",
+				"rivalHouse": "",
+				"dynasty": "",
+				"feudalLord": ""
+				}
+	}
+	
+}
+
+
