@@ -1,4 +1,4 @@
-var helpscout = require('helpscout')('d1c6f9ad0cdb942131e04255688fb49d3c4dbf0f', 16514);
+var helpscout = require('helpscout')('api-key', 16514);
 var fs = require('fs');
 var http = require('http');
 
