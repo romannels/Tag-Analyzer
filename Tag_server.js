@@ -1,20 +1,33 @@
-var helpscout = require('helpscout')('api-ket', 16514);
+var helpscout = require('helpscout')('api-key', 16514);
 var fs = require('fs');
 var http = require('http');
+var qs = require('querystring');
 
 // NO WARRANTY EXPRESSED OR IMPLIED. USE AT YOUR OWN RISK.
-var tagName = 'w10';
-helpscout.conversations.list({ tag: tagName }, function(err, mailboxes){
-	 for (var i = 0; i < mailboxes.items.length; i++){
-		 for(var j = 0; j < mailboxes.items[i].tags.length; j++){
-	 console.log(mailboxes.items[i].tags[j]);}}
-	 console.log(mailboxes.items.length);
-	 console.log(mailboxes.items[49].closedBy.firstName);
-	 console.log(mailboxes.items[49].closedBy.lastName);
-});
+var getHelp = function() {
+	var tagName = 'w10';
+	helpscout.conversations.list({ tag: tagName }, function(err, mailboxes){
+		 for (var i = 0; i < mailboxes.items.length; i++){
+			 for(var j = 0; j < mailboxes.items[i].tags.length; j++){
+		 console.log(mailboxes.items[i].tags[j]);}}
+		 console.log(mailboxes.items.length);
+		 console.log(mailboxes.items[49].closedBy.firstName);
+		 console.log(mailboxes.items[49].closedBy.lastName);
+	});
+}
 
+// Server for client
 http.createServer(function(err, res){
-	res.writeHead(200, {'Content-Type': 'text/plain'});	
+	var body = "";
+	if (res.url == "/") {
+		res.writeHead(200, {'Content-Type': 'text/html'});	
+		return response.end(
+		//put form into this bad boy
+		);
+	}
+	if (res.url == "/submit") {
+		//alright time to do work
+	}
 });
 
 // 
@@ -40,7 +53,7 @@ http.createServer(function(err, res){
 // 3) select a tag (if tag == tag)
 // 4) implement loop and counter
 // 5) repeat for every tag and employee
-// 6) find maximum for everytag
+// 6) find maximum for every tag
 // ONLY WAY TO SLIGHTLY IMPROVE WOULD BE TO DELETE AFTER READING, BUT THIS WILL STILL BE SLOW AND STUPID
 // 
 // SOMEWHAT BETTER METHOD
@@ -52,4 +65,4 @@ http.createServer(function(err, res){
 // Find way to use helpscout API
 // retrieve all records for single employee between given date
 // update json object with values
-// OR maybe retrive all records for a single tag
+// OR maybe retrieve all records for a single tag
