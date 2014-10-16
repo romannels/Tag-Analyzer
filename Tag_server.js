@@ -1,28 +1,37 @@
-var helpscout = require('helpscout')('api-key', 16514);
+var helpscout = require('helpscout')('64784d971a4c96f24ba2e6ffefbec238a377a2ee', 16514);
 var fs = require('fs');
 var http = require('http');
 var qs = require('querystring');
+var child = require('child_process');
+var viewer = fs.readFileSync(__dirname + '/Tag_viewer.html');
+var viewer_helper = fs.readFileSync(__dirname + '/Tag_viewer.js');
+
 
 // NO WARRANTY EXPRESSED OR IMPLIED. USE AT YOUR OWN RISK.
+
 var getHelp = function() {
 	var tagName = 'w10';
-	helpscout.conversations.list({ tag: tagName }, function(err, mailboxes){
+	var ob = { tag: tagName , page: 16}
+	helpscout.conversations.list(ob, function(err, mailboxes){
 		 for (var i = 0; i < mailboxes.items.length; i++){
 			 for(var j = 0; j < mailboxes.items[i].tags.length; j++){
 		 console.log(mailboxes.items[i].tags[j]);}}
-		 console.log(mailboxes.items.length);
-		 console.log(mailboxes.items[49].closedBy.firstName);
-		 console.log(mailboxes.items[49].closedBy.lastName);
+		 //console.log(mailboxes.items.length);
+		 //console.log(mailboxes.items[49].closedBy.firstName);
+		 //console.log(mailboxes.items[49].closedBy.lastName);
+		 console.log("pages: " + mailboxes.pages);
+		 console.log("objects: " + mailboxes.count)
+		 console.log("page" + mailboxes.page)
 	});
 }
-
+getHelp();
 // Server for client
 http.createServer(function(err, res){
 	var body = "";
 	if (res.url == "/") {
 		res.writeHead(200, {'Content-Type': 'text/html'});	
-		return response.end(
-		//put form into this bad boy
+		return res.end(
+		viewer
 		);
 	}
 	if (res.url == "/submit") {
