@@ -1,4 +1,4 @@
-var helpscout = require('helpscout')('64784d971a4c96f24ba2e6ffefbec238a377a2ee', 16514);
+var helpscout = require('helpscout')('64784d971a4c96f24ba2e6ffefbec238a377a2ee', 16514); // yes I was stupid, yes this was revoked very close to the time this was commited
 var fs = require('fs');
 var http = require('http');
 var qs = require('querystring');
